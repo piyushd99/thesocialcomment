@@ -19,7 +19,7 @@ const DashNav = () => {
       <Row className="paddingCol2">
         <Col xs={4}>
           <Row>
-            <h2>Dashboardd</h2>
+            <h2>Dashboard</h2>
           </Row>
           <Row>
             <p>Monday,</p>&nbsp;
