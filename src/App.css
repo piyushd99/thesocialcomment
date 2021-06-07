@@ -1,0 +1,123 @@
+body {
+  background-color: #1d2029;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.redcolor {
+  color: red;
+}
+.purplecolor {
+  color: purple;
+}
+.bluecolor {
+  color: #5296ff;
+  padding-bottom: 5%;
+  font-size: 90%;
+}
+.date {
+  color: #5296ff;
+}
+.right {
+  float: right;
+  display: block;
+}
+.center {
+  justify-content: center;
+}
+.image {
+  width: 30%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+h4,
+h2 {
+  color: white;
+}
+.border {
+  border: 1px solid red;
+}
+.paddingRow {
+  padding-bottom: 2.5%;
+}
+.reduceSize {
+  font-size: 70%;
+}
+.textRight {
+  text-align: right;
+}
+.paddingCol {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.paddingCol3 {
+  padding-right: 7.5%;
+}
+.react-bootstrap-table {
+  height: 500px;
+  overflow: auto;
+}
+.paddingCol2 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+}
+.whiteFont {
+  color: white;
+}
+.borderRight {
+  border-right: 2px solid white;
+}
+.blueBG {
+  background-color: #5296ff;
+}
+.arrow {
+  padding-right: 10%;
+  font-size: 200%;
+}
+.fontSizeReduce {
+  font-size: 90%;
+}
+.paddingClass {
+  padding-left: 7.5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonColorBlue {
+  background-color: #5296ff;
+}
+.excessPadding {
+  padding: 10%;
+}
+.borderClass {
+  border: 1;
+  border-color: white;
+}
+.App-link {
+  color: white;
+}
