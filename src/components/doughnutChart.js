@@ -3,10 +3,8 @@ import { Doughnut } from "react-chartjs-2";
 import { Row, Col } from "react-flexbox-grid";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 const data = {
-  labels: ["Red", "Blue", "Yellow"],
   datasets: [
     {
-      label: "# of Votes",
       data: [45, 24, 30],
       backgroundColor: ["purple ", "#5296ff", "red"],
       borderColor: ["purple", "#5296ff", "red"],
@@ -28,10 +26,11 @@ const DoughnutChart = () => (
     </Row>
 
     <div
+      className="paddingRow_2"
       style={{
         position: "relative",
         margin: "auto",
-        width: "11vw",
+        width: "10.5vw",
       }}
     >
       {" "}

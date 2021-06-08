@@ -1,6 +1,8 @@
 import React from "react";
-import { Bar } from "react-chartjs-2";
+import { Row, Col } from "react-flexbox-grid";
 
+import { GoPrimitiveDot } from "react-icons/go";
+import ProgressBar from "react-bootstrap/ProgressBar";
 const data = {
   labels: ["Application", "Selected", "Rejected", "On hold", "Processed"],
   datasets: [
@@ -40,16 +42,69 @@ const options = {
 const HorizontalBarChart = () => (
   <div class="border border-dark rounded">
     <div className="paddingClass">
-      <h2>Total Application</h2>
+      <h4>Total Application</h4>
       <br />
-      <div
-        style={{
-          position: "relative",
-          margin: "auto",
-          width: "15vw",
-        }}
-      >
-        <Bar data={data} options={options} />
+      <div className="paddingRow_2">
+        <Row>
+          <Col xs={4} className="greencolor">
+            <p>
+              <GoPrimitiveDot />
+              Application
+            </p>
+          </Col>
+          <Col xs={1}></Col>
+          <Col xs={5}>
+            <ProgressBar variant="success" now={45} />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={4} className="bluecolor2">
+            <p>
+              <GoPrimitiveDot />
+              Shotlisted
+            </p>
+          </Col>
+          <Col xs={1}></Col>
+          <Col xs={5}>
+            <ProgressBar variant="info" now={85} />
+          </Col>
+        </Row>
+        <Row className="redcolor">
+          <Col xs={4}>
+            <p>
+              <GoPrimitiveDot />
+              Rejected
+            </p>
+          </Col>
+          <Col xs={1}></Col>
+          <Col xs={5}>
+            <ProgressBar now={40} variant="danger" />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={4} className="greencolor">
+            <p>
+              <GoPrimitiveDot />
+              On hold
+            </p>
+          </Col>
+          <Col xs={1}></Col>
+          <Col xs={5}>
+            <ProgressBar variant="success" now={10} />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={4} className="yellowcolor">
+            <p>
+              <GoPrimitiveDot />
+              Selected
+            </p>
+          </Col>
+          <Col xs={1}></Col>
+          <Col xs={5}>
+            <ProgressBar variant="warning" now={90} />
+          </Col>
+        </Row>
       </div>
     </div>
   </div>

@@ -27,10 +27,9 @@ const DashNav = () => {
           </Row>
         </Col>
         <Col xs={3}></Col>
-        <Col xs={1}>
-          <Button variant="primary">+ Add</Button>{" "}
-        </Col>
+        <Col xs={1}></Col>
         <Col xs={4}>
+          <Button variant="primary">+ Add</Button>&emsp;
           <SearchField placeholder="Search item" />
         </Col>
       </Row>

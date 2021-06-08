@@ -24,6 +24,15 @@ body {
   padding-bottom: 5%;
   font-size: 90%;
 }
+.bluecolor2 {
+  color: #5296ff;
+}
+.yellowcolor {
+  color: #ffc107;
+}
+.greencolor {
+  color: #28a745;
+}
 .date {
   color: #5296ff;
 }
@@ -42,6 +51,7 @@ body {
   text-align: center;
   color: white;
 }
+
 h4,
 h2 {
   color: white;
@@ -50,7 +60,10 @@ h2 {
   border: 1px solid red;
 }
 .paddingRow {
-  padding-bottom: 2.5%;
+  padding-bottom: 1.5%;
+}
+.paddingRow_2 {
+  padding-bottom: 5%;
 }
 .reduceSize {
   font-size: 70%;
@@ -71,8 +84,7 @@ h2 {
 }
 .paddingCol2 {
   padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2.5%;
+  padding-top: 1.5%;
 }
 .whiteFont {
   color: white;
